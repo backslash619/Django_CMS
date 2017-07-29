@@ -5,10 +5,10 @@ Usage :
 
 
 An educational website allows the user to :
-(x) Explore the courses
-(x) Create the courses
-(x) Create steps as text based as well as quiz based
-(x) Further allowed to create the Question type inside the quizzes as MCQ 
+- (x) Explore the courses
+- (x) Create the courses
+- (x) Create steps as text based as well as quiz based
+- (x) Further allowed to create the Question type inside the quizzes as MCQ 
     and T/F questions.
-(x) Finally can delete, create, update the questions as well as the answers 
+- (x) Finally can delete, create, update the questions as well as the answers 
     related to it
