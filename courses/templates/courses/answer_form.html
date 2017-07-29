@@ -1,0 +1,34 @@
+{% extends "courses/layout_course.html" %}
+{% load course_extras %}
+
+{% block title %}{{ question|default:"New Answer"  }}|{{ question.prompt }}| {{ question.quiz.course.title }} {{ block.super }}
+{% endblock %}
+
+{% block breadcrumbs %}
+<li>
+    <a href="{% url 'courses:list' %}">Courses</a>
+</li>
+<li>
+    <a href="{% url 'courses:detail' pk=question.quiz.course.pk %}">{{ question.quiz.course.title }}</a>
+</li>
+<li>
+    <a href="{% url 'courses:quiz' course_pk=question.quiz.course.pk step_pk=question.quiz.pk %}">{{ question.quiz.title }}</a>
+</li>
+<li>Adding answer in || {{ question.prompt }}</li>
+{% endblock %}
+
+{% block content %}
+<div class="row columns">
+    {{ block.super }}
+</div>
+<div class="row columns">
+    <h5><strong>Add Answers</strong></h5>
+    <form method="POST" action="">
+        {% csrf_token %}
+        <section>
+            {{ formset }}
+        </section>
+        <input type="submit" value="Save" class="button">
+    </form>
+</div>
+{% endblock %}

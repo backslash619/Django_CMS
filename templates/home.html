@@ -1,0 +1,12 @@
+{% extends 'courses/layout_course.html' %}
+{% load course_extras %}
+
+{% block title %}Welcome Page{% endblock %}
+
+
+
+{% block content %}
+<div>{% nav_course_list %}</div>
+<h3>WELCOME!!</h3>
+<a href="{% url 'suggestion' %}">Suggest something!!</a>
+{% endblock %}

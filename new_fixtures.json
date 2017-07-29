@@ -1,0 +1,2098 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "courses",
+    "model": "course"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "courses",
+    "model": "text"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "courses",
+    "model": "quiz"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "courses",
+    "model": "question"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "courses",
+    "model": "answer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "courses",
+    "model": "multiplechoicequestion"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "courses",
+    "model": "truefalsequestion"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2z2b8idoope3mlp36ywgh4td4c6lb2mb",
+  "fields": {
+    "session_data": "YTk2NGU2YjBhMDE2YTAzYTNmMjI5MjhjMmYxNDgzOTBhMjc0N2UxNDp7Il9hdXRoX3VzZXJfaWQiOiI4IiwiX2F1dGhfdXNlcl9oYXNoIjoiNTY3ODc0MmRmZDVlMGU3NjNlZmU4YmFiNGFhYzY5ZTYyMGYzNjE1MiIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
+    "expire_date": "2017-08-12T19:29:57.693Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5dhc6fb4ffueo7jk8f25zy2iit5a29ln",
+  "fields": {
+    "session_data": "ODk0Y2MzZmRkNDgzODg5M2ZkMzMzZjZhNDBhMzE1YzU2NzU5MmQ0YTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5Y2QwNThiNmU1YzdlOTU0MzMzNTAwNTZjYjU2MDM3ZDczMDc1ZjMyIn0=",
+    "expire_date": "2017-03-11T11:39:00.081Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bhvyzfzh5a2wm8vf0ywmjxaoe11ii3h2",
+  "fields": {
+    "session_data": "ODk0Y2MzZmRkNDgzODg5M2ZkMzMzZjZhNDBhMzE1YzU2NzU5MmQ0YTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5Y2QwNThiNmU1YzdlOTU0MzMzNTAwNTZjYjU2MDM3ZDczMDc1ZjMyIn0=",
+    "expire_date": "2017-03-06T20:01:27.166Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "eonbfc5npd01e97kowdptq878p09903u",
+  "fields": {
+    "session_data": "ODk0Y2MzZmRkNDgzODg5M2ZkMzMzZjZhNDBhMzE1YzU2NzU5MmQ0YTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5Y2QwNThiNmU1YzdlOTU0MzMzNTAwNTZjYjU2MDM3ZDczMDc1ZjMyIn0=",
+    "expire_date": "2017-02-19T23:36:21.928Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nwdemhm0woj3fpsqb3xky9hec0la06xn",
+  "fields": {
+    "session_data": "ODk0Y2MzZmRkNDgzODg5M2ZkMzMzZjZhNDBhMzE1YzU2NzU5MmQ0YTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5Y2QwNThiNmU1YzdlOTU0MzMzNTAwNTZjYjU2MDM3ZDczMDc1ZjMyIn0=",
+    "expire_date": "2017-03-25T12:31:14.410Z"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 1,
+  "fields": {
+    "title": "What's the deal with strings?",
+    "description": "Strings are more than just a bunch of letters. Find out why!",
+    "order": 2,
+    "course": 1,
+    "content": ""
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 2,
+  "fields": {
+    "title": "Using the Shell",
+    "description": "Learn how to use Python's shell to play with the language and get help.",
+    "order": 0,
+    "course": 1,
+    "content": "Launch the shell with \"python\".\r\n\r\nYou can exit the shell by entering \"exit()\" or \"quit()\".\r\n\r\nYou can also exit the shell by pressing CTRL and D."
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 3,
+  "fields": {
+    "title": "Step 1 for testing",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "order": 10,
+    "course": 4,
+    "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\r\n\r\n\r\nWhere does it come from?\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\r\n\r\nWhere can I get some?\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 4,
+  "fields": {
+    "title": "Step 2 for testing",
+    "description": "Step 1 for testing",
+    "order": 20,
+    "course": 4,
+    "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\r\n\r\n\r\nWhere does it come from?\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\r\n\r\nWhere can I get some?\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 5,
+  "fields": {
+    "title": "Step 3 for testing",
+    "description": "ndomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore",
+    "order": 30,
+    "course": 4,
+    "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\r\n\r\n\r\nWhere does it come from?\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\r\n\r\nWhere can I get some?\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 6,
+  "fields": {
+    "title": "tiny step",
+    "description": "hello",
+    "order": 0,
+    "course": 2,
+    "content": "One two three One two three One two three One two three One two three"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 7,
+  "fields": {
+    "title": "This is the new text for this course",
+    "description": "What do you like to do?",
+    "order": 2,
+    "course": 1,
+    "content": "up vote\r\n32\r\ndown vote\r\nfavorite\r\n17\r\nFrom the Django documentation...\r\n\r\nWhen you're only dealing with simple many-to-many relationships such as mixing and matching pizzas and toppings, a standard ManyToManyField is all you need. However, sometimes you may need to associate data with the relationship between two models.\r\n\r\nFor example, consider the case of an application tracking the musical groups which musicians belong to. There is a many-to-many relationship between a person and the groups of which they are a member, so you could use a ManyToManyField to represent this relationship. However, there is a lot of detail about the membership that you might want to collect, such as the date at which the person joined the group.\r\n\r\nFor these situations, Django allows you to specify the model that will be used to govern the many-to-many relationship. You can then put extra fields on the intermediate model. The intermediate model is associated with the ManyToManyField using the through argument to point to the model that will act as an intermediary. For our musician example, the code would look something like this:"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 8,
+  "fields": {
+    "title": "ewfewfwef",
+    "description": "wefwefwefwe",
+    "order": 0,
+    "course": 21,
+    "content": "wefewfwefwef"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 9,
+  "fields": {
+    "title": "fwfwefwe",
+    "description": "wefwefwefwe",
+    "order": 0,
+    "course": 1,
+    "content": "wefwefwefwefwefw"
+  }
+},
+{
+  "model": "courses.quiz",
+  "pk": 1,
+  "fields": {
+    "title": "Review",
+    "description": "A quick review",
+    "order": 1,
+    "course": 1,
+    "total_questions": 4,
+    "times_taken": 0
+  }
+},
+{
+  "model": "courses.quiz",
+  "pk": 2,
+  "fields": {
+    "title": "Review: Strings and Things",
+    "description": "Let's talk about strings!",
+    "order": 3,
+    "course": 1,
+    "total_questions": 5,
+    "times_taken": 0
+  }
+},
+{
+  "model": "courses.quiz",
+  "pk": 3,
+  "fields": {
+    "title": "Basic PHP and Including Files",
+    "description": "How PHP is processed and handles including files.",
+    "order": 0,
+    "course": 21,
+    "total_questions": 4,
+    "times_taken": 0
+  }
+},
+{
+  "model": "courses.quiz",
+  "pk": 4,
+  "fields": {
+    "title": "Review: Introduction to Your Tools",
+    "description": "In this quiz, we will review the tools you have been introduced.",
+    "order": 0,
+    "course": 18,
+    "total_questions": 4,
+    "times_taken": 0
+  }
+},
+{
+  "model": "courses.quiz",
+  "pk": 5,
+  "fields": {
+    "title": "Refresher",
+    "description": "Let's review our Java skills",
+    "order": 0,
+    "course": 19,
+    "total_questions": 4,
+    "times_taken": 0
+  }
+},
+{
+  "model": "courses.quiz",
+  "pk": 6,
+  "fields": {
+    "title": "Review Arrays",
+    "description": "Let's review the awkwardness of Arrays",
+    "order": 0,
+    "course": 20,
+    "total_questions": 4,
+    "times_taken": 0
+  }
+},
+{
+  "model": "courses.quiz",
+  "pk": 7,
+  "fields": {
+    "title": "Review",
+    "description": "We'll review some topics from this stage.",
+    "order": 0,
+    "course": 16,
+    "total_questions": 4,
+    "times_taken": 0
+  }
+},
+{
+  "model": "courses.quiz",
+  "pk": 8,
+  "fields": {
+    "title": "HTTP Server Review",
+    "description": "Let's review HTTP servers.",
+    "order": 0,
+    "course": 17,
+    "total_questions": 4,
+    "times_taken": 0
+  }
+},
+{
+  "model": "courses.quiz",
+  "pk": 9,
+  "fields": {
+    "title": "Data, Databases and SQL Review",
+    "description": "In this quiz we'll review the topics covered in this stage",
+    "order": 0,
+    "course": 14,
+    "total_questions": 4,
+    "times_taken": 0
+  }
+},
+{
+  "model": "courses.quiz",
+  "pk": 10,
+  "fields": {
+    "title": "Adding Data to a Database Review",
+    "description": "in this quiz we'll review what we've learned.",
+    "order": 0,
+    "course": 15,
+    "total_questions": 4,
+    "times_taken": 0
+  }
+},
+{
+  "model": "courses.quiz",
+  "pk": 11,
+  "fields": {
+    "title": "The Problem with Activities",
+    "description": "This quiz reviews some of the issues faced when using Activities",
+    "order": 0,
+    "course": 13,
+    "total_questions": 4,
+    "times_taken": 0
+  }
+},
+{
+  "model": "courses.quiz",
+  "pk": 12,
+  "fields": {
+    "title": "Android Tools",
+    "description": "Android Tools",
+    "order": 0,
+    "course": 12,
+    "total_questions": 4,
+    "times_taken": 0
+  }
+},
+{
+  "model": "courses.quiz",
+  "pk": 13,
+  "fields": {
+    "title": "Template Tags Review",
+    "description": "Let's test what you've learned!",
+    "order": 0,
+    "course": 11,
+    "total_questions": 4,
+    "times_taken": 0
+  }
+},
+{
+  "model": "courses.question",
+  "pk": 1,
+  "fields": {
+    "quiz": 1,
+    "order": 0,
+    "prompt": "Can we save the Question?"
+  }
+},
+{
+  "model": "courses.question",
+  "pk": 2,
+  "fields": {
+    "quiz": 2,
+    "order": 0,
+    "prompt": "What all characters can be in a string?"
+  }
+},
+{
+  "model": "courses.question",
+  "pk": 3,
+  "fields": {
+    "quiz": 13,
+    "order": 0,
+    "prompt": "For app-specific static content, it's a best practice to have a \"static\" folder within your app that has another folder within it that shares the same name as your app."
+  }
+},
+{
+  "model": "courses.question",
+  "pk": 4,
+  "fields": {
+    "quiz": 12,
+    "order": 0,
+    "prompt": "Android Studio evolves quickly, but the concepts we'll learn will apply even if the tools change."
+  }
+},
+{
+  "model": "courses.question",
+  "pk": 5,
+  "fields": {
+    "quiz": 11,
+    "order": 0,
+    "prompt": "When we rotated the Fun Facts app why did it revert back to its original fun fact and color?"
+  }
+},
+{
+  "model": "courses.question",
+  "pk": 6,
+  "fields": {
+    "quiz": 9,
+    "order": 0,
+    "prompt": "Databases organize their information into structures called:"
+  }
+},
+{
+  "model": "courses.question",
+  "pk": 7,
+  "fields": {
+    "quiz": 10,
+    "order": 0,
+    "prompt": "What does the acronym CRUD stand for?"
+  }
+},
+{
+  "model": "courses.question",
+  "pk": 8,
+  "fields": {
+    "quiz": 7,
+    "order": 0,
+    "prompt": "Given the following HTML what would calling `$(\"p\").next().remove()` remove?\r\n\r\n`<h1>Hello World!</h1>`\r\n\r\n`<p>This is my first post!</p>`"
+  }
+},
+{
+  "model": "courses.question",
+  "pk": 9,
+  "fields": {
+    "quiz": 8,
+    "order": 0,
+    "prompt": "What is the local IP address assigned to all computers?"
+  }
+},
+{
+  "model": "courses.question",
+  "pk": 10,
+  "fields": {
+    "quiz": 4,
+    "order": 0,
+    "prompt": "Java is a compiled language"
+  }
+},
+{
+  "model": "courses.question",
+  "pk": 11,
+  "fields": {
+    "quiz": 5,
+    "order": 0,
+    "prompt": "The `boolean` datatype is used to store:"
+  }
+},
+{
+  "model": "courses.question",
+  "pk": 12,
+  "fields": {
+    "quiz": 6,
+    "order": 0,
+    "prompt": "After an array is created its length can be changed by using the `setLength` method."
+  }
+},
+{
+  "model": "courses.question",
+  "pk": 13,
+  "fields": {
+    "quiz": 3,
+    "order": 0,
+    "prompt": "Most web servers are configured to display a document called `index.html` or `index.php` when a directory is requested, without a file name being specified"
+  }
+},
+{
+  "model": "courses.multiplechoicequestion",
+  "pk": 2,
+  "fields": {
+    "shuffle_answers": true
+  }
+},
+{
+  "model": "courses.multiplechoicequestion",
+  "pk": 3,
+  "fields": {
+    "shuffle_answers": true
+  }
+},
+{
+  "model": "courses.multiplechoicequestion",
+  "pk": 5,
+  "fields": {
+    "shuffle_answers": true
+  }
+},
+{
+  "model": "courses.multiplechoicequestion",
+  "pk": 6,
+  "fields": {
+    "shuffle_answers": true
+  }
+},
+{
+  "model": "courses.multiplechoicequestion",
+  "pk": 7,
+  "fields": {
+    "shuffle_answers": true
+  }
+},
+{
+  "model": "courses.multiplechoicequestion",
+  "pk": 8,
+  "fields": {
+    "shuffle_answers": true
+  }
+},
+{
+  "model": "courses.multiplechoicequestion",
+  "pk": 9,
+  "fields": {
+    "shuffle_answers": true
+  }
+},
+{
+  "model": "courses.multiplechoicequestion",
+  "pk": 10,
+  "fields": {
+    "shuffle_answers": false
+  }
+},
+{
+  "model": "courses.multiplechoicequestion",
+  "pk": 11,
+  "fields": {
+    "shuffle_answers": true
+  }
+},
+{
+  "model": "courses.truefalsequestion",
+  "pk": 1,
+  "fields": {}
+},
+{
+  "model": "courses.truefalsequestion",
+  "pk": 2,
+  "fields": {}
+},
+{
+  "model": "courses.truefalsequestion",
+  "pk": 3,
+  "fields": {}
+},
+{
+  "model": "courses.truefalsequestion",
+  "pk": 4,
+  "fields": {}
+},
+{
+  "model": "courses.truefalsequestion",
+  "pk": 12,
+  "fields": {}
+},
+{
+  "model": "courses.truefalsequestion",
+  "pk": 13,
+  "fields": {}
+},
+{
+  "model": "courses.answer",
+  "pk": 1,
+  "fields": {
+    "question": 2,
+    "order": 3,
+    "text": "Anything that's Unicode!",
+    "correct": true
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 2,
+  "fields": {
+    "question": 2,
+    "order": 0,
+    "text": "Only letters and punctation",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 3,
+  "fields": {
+    "question": 3,
+    "order": 3,
+    "text": "ASCII",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 4,
+  "fields": {
+    "question": 2,
+    "order": 0,
+    "text": "Emoji only",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 5,
+  "fields": {
+    "question": 1,
+    "order": 1,
+    "text": "First option",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 6,
+  "fields": {
+    "question": 1,
+    "order": 2,
+    "text": "Second option",
+    "correct": true
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 7,
+  "fields": {
+    "question": 3,
+    "order": 0,
+    "text": "True",
+    "correct": true
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 8,
+  "fields": {
+    "question": 3,
+    "order": 0,
+    "text": "False",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 9,
+  "fields": {
+    "question": 4,
+    "order": 0,
+    "text": "True",
+    "correct": true
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 10,
+  "fields": {
+    "question": 4,
+    "order": 0,
+    "text": "False",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 11,
+  "fields": {
+    "question": 5,
+    "order": 0,
+    "text": "The activity is recreated when the orientation changes.",
+    "correct": true
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 12,
+  "fields": {
+    "question": 5,
+    "order": 0,
+    "text": "It's a different activity; we use a different activity for each orientation.",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 13,
+  "fields": {
+    "question": 5,
+    "order": 0,
+    "text": "Application member variables don't persist their values through a rotation.",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 14,
+  "fields": {
+    "question": 6,
+    "order": 0,
+    "text": "Tables",
+    "correct": true
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 15,
+  "fields": {
+    "question": 6,
+    "order": 0,
+    "text": "Spreadsheets",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 16,
+  "fields": {
+    "question": 6,
+    "order": 0,
+    "text": "Charts",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 17,
+  "fields": {
+    "question": 6,
+    "order": 0,
+    "text": "Multi-dimensional Arrays",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 18,
+  "fields": {
+    "question": 7,
+    "order": 0,
+    "text": "Create, Read, Update and Delete",
+    "correct": true
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 19,
+  "fields": {
+    "question": 7,
+    "order": 0,
+    "text": "Curate, Retrieve, Update and Delete",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 20,
+  "fields": {
+    "question": 7,
+    "order": 0,
+    "text": "Create, Render, Update and Duplicate",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 21,
+  "fields": {
+    "question": 8,
+    "order": 0,
+    "text": "The `p` element",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 22,
+  "fields": {
+    "question": 8,
+    "order": 0,
+    "text": "Nothing",
+    "correct": true
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 23,
+  "fields": {
+    "question": 8,
+    "order": 0,
+    "text": "The `h1` element",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 24,
+  "fields": {
+    "question": 9,
+    "order": 0,
+    "text": "127.0.0.01",
+    "correct": true
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 25,
+  "fields": {
+    "question": 9,
+    "order": 0,
+    "text": "1.3.3.7",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 26,
+  "fields": {
+    "question": 9,
+    "order": 0,
+    "text": "1.0.0.127",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 27,
+  "fields": {
+    "question": 9,
+    "order": 0,
+    "text": "1.1.1.1",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 28,
+  "fields": {
+    "question": 10,
+    "order": 0,
+    "text": "Yes",
+    "correct": true
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 29,
+  "fields": {
+    "question": 10,
+    "order": 0,
+    "text": "No",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 30,
+  "fields": {
+    "question": 11,
+    "order": 0,
+    "text": "true or false",
+    "correct": true
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 31,
+  "fields": {
+    "question": 11,
+    "order": 0,
+    "text": "yes, no or maybe",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 32,
+  "fields": {
+    "question": 11,
+    "order": 0,
+    "text": "numbers",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 33,
+  "fields": {
+    "question": 11,
+    "order": 0,
+    "text": "large pieces of text",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 34,
+  "fields": {
+    "question": 12,
+    "order": 0,
+    "text": "True",
+    "correct": false
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 35,
+  "fields": {
+    "question": 12,
+    "order": 0,
+    "text": "False",
+    "correct": true
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 36,
+  "fields": {
+    "question": 13,
+    "order": 0,
+    "text": "True",
+    "correct": true
+  }
+},
+{
+  "model": "courses.answer",
+  "pk": 37,
+  "fields": {
+    "question": 13,
+    "order": 0,
+    "text": "False",
+    "correct": false
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 3,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 3,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 3,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 4,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 4,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 4,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can add course",
+    "content_type": 7,
+    "codename": "add_course"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can change course",
+    "content_type": 7,
+    "codename": "change_course"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can delete course",
+    "content_type": 7,
+    "codename": "delete_course"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can add step",
+    "content_type": 8,
+    "codename": "add_step"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can change step",
+    "content_type": 8,
+    "codename": "change_step"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can delete step",
+    "content_type": 8,
+    "codename": "delete_step"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add text",
+    "content_type": 8,
+    "codename": "add_text"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change text",
+    "content_type": 8,
+    "codename": "change_text"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete text",
+    "content_type": 8,
+    "codename": "delete_text"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can add quiz",
+    "content_type": 9,
+    "codename": "add_quiz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can change quiz",
+    "content_type": 9,
+    "codename": "change_quiz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can delete quiz",
+    "content_type": 9,
+    "codename": "delete_quiz"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can add question",
+    "content_type": 10,
+    "codename": "add_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can change question",
+    "content_type": 10,
+    "codename": "change_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can delete question",
+    "content_type": 10,
+    "codename": "delete_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can add answers",
+    "content_type": 11,
+    "codename": "add_answers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can change answers",
+    "content_type": 11,
+    "codename": "change_answers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can delete answers",
+    "content_type": 11,
+    "codename": "delete_answers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add multiple choise question",
+    "content_type": 12,
+    "codename": "add_multiplechoisequestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change multiple choise question",
+    "content_type": 12,
+    "codename": "change_multiplechoisequestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete multiple choise question",
+    "content_type": 12,
+    "codename": "delete_multiplechoisequestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can add true false question",
+    "content_type": 13,
+    "codename": "add_truefalsequestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can change true false question",
+    "content_type": 13,
+    "codename": "change_truefalsequestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can delete true false question",
+    "content_type": 13,
+    "codename": "delete_truefalsequestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can add multiple choice question",
+    "content_type": 12,
+    "codename": "add_multiplechoicequestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can change multiple choice question",
+    "content_type": 12,
+    "codename": "change_multiplechoicequestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can delete multiple choice question",
+    "content_type": 12,
+    "codename": "delete_multiplechoicequestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can add answer",
+    "content_type": 11,
+    "codename": "add_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can change answer",
+    "content_type": 11,
+    "codename": "change_answer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can delete answer",
+    "content_type": 11,
+    "codename": "delete_answer"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$Cl7PLyNphSZ2$8T2Imcwn26MUYDE/Strh0Kpo64RZbGnDG8CSAUkgevY=",
+    "last_login": "2017-03-11T12:31:14.398Z",
+    "is_superuser": true,
+    "username": "mishlaev",
+    "first_name": "Vit",
+    "last_name": "Mishlaev",
+    "email": "mishlaev@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2017-02-05T23:36:12.575Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "craig",
+    "first_name": "Craig",
+    "last_name": "Dennis",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2016-01-19T17:38:07Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "chalkers",
+    "first_name": "Andrew",
+    "last_name": "Chalkley",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2016-01-19T17:38:07Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ben",
+    "first_name": "Ben",
+    "last_name": "Deitch",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2016-01-19T17:38:07Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "lacey",
+    "first_name": "Lacey",
+    "last_name": "Henschel",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2016-01-19T17:38:07Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "alena",
+    "first_name": "Alena",
+    "last_name": "Holligan",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2016-01-19T17:38:07Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$36000$2jmP1kYOsgLO$xJG5/gcWCDlhPX9TZFtINAkPKdmi/OrsB1XIqhzHS5E=",
+    "last_login": "2017-07-29T19:29:57.473Z",
+    "is_superuser": true,
+    "username": "user_tarun",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2017-07-29T19:29:48.537Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "created_at": "2017-02-05T22:46:32.074Z",
+    "title": "Python basics",
+    "description": "Learn the basics of Python",
+    "teacher": 1,
+    "subject": "Python",
+    "published": true,
+    "status": "p"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "created_at": "2017-02-05T22:48:01.988Z",
+    "title": "Python collections",
+    "description": "Learn about list, dict, and tuple",
+    "teacher": 1,
+    "subject": "Python",
+    "published": true,
+    "status": "p"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 3,
+  "fields": {
+    "created_at": "2017-02-05T22:49:32.955Z",
+    "title": "Object-Oriented Python",
+    "description": "Learn about Python's classes",
+    "teacher": 1,
+    "subject": "Python",
+    "published": true,
+    "status": "p"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 4,
+  "fields": {
+    "created_at": "2017-02-05T23:39:46.378Z",
+    "title": "Python testing",
+    "description": "## Testing is Amazing! \r\n\r\nLearn to test your Python applications with _unittest_ and *doctests*! \r\n\r\nThings you will learn: \r\n\r\n- unittest \r\n- doctests",
+    "teacher": 1,
+    "subject": "Python",
+    "published": true,
+    "status": "p"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 11,
+  "fields": {
+    "created_at": "2016-01-19T21:45:29.416Z",
+    "title": "Customizing Django Templates",
+    "description": "In Django Basics, you learned how to set up the skeleton of a video tutorial library. But for a real-world application, you\u2019d probably want more flexibility and functionality in your websites.\r\n\r\nDjango offers lots of built-in options for using templates to make your site dynamic and flexible, and makes it easy for you to build the extra things you need. In this course, learn about more complex template inheritance, how to make use of the vast array of built-in tags and filters Django has, and how to grow your own tags and filters for the functionality that Django doesn\u2019t provide. By the time you finish this course, you will have a deeper understanding of how you can make Django\u2019s templates work for your project, as well as a fully fleshed out video tutorial site!",
+    "teacher": 6,
+    "subject": "Python",
+    "published": false,
+    "status": "i"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 12,
+  "fields": {
+    "created_at": "2016-01-19T21:46:36.067Z",
+    "title": "Build a Simple Android App",
+    "description": "This course covers the very basics of Android development. We will build a simple app that will serve up some fun facts when you tap on a button. We introduce you to programming in Android, a tool for Android development called Android Studio, and some very basic concepts of the Android Software Development Kit, or SDK. By the end you will have a good idea of how a basic app works, and you will be armed with the knowledge to start building more.",
+    "teacher": 5,
+    "subject": "Android",
+    "published": false,
+    "status": "i"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 13,
+  "fields": {
+    "created_at": "2016-01-19T21:46:54.856Z",
+    "title": "Android Activity Lifecycle",
+    "description": "Activities are a crucial component of almost any Android app. In this course we will learn about the lifecycle of our activities, and how we can handle various unexpected changes. We'll also see how to correctly handle a device rotation as well as how to save data using SharedPreferences. To top it all off, at the end of this course you'll get a chance to test your Android knowledge with a project.",
+    "teacher": 5,
+    "subject": "Android",
+    "published": false,
+    "status": "i"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 14,
+  "fields": {
+    "created_at": "2016-01-19T21:47:17.535Z",
+    "title": "SQL Basics",
+    "description": "In SQL Basics we\u2019ll take a look at what databases are and how you can retrieve information from them. Databases can store massive amounts of information to be retrieved at a later date. Databases act as the memory for dynamic web sites or mobile apps.",
+    "teacher": 4,
+    "subject": "SQL",
+    "published": false,
+    "status": "i"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 15,
+  "fields": {
+    "created_at": "2016-01-19T21:47:35.260Z",
+    "title": "Modifying Data with SQL",
+    "description": "At the heart of a dynamic application is a database. Whether the application is an eCommerce, sports team, social network or a productivity app on your phone the data needs to change over time.\r\n\r\nIn this course we'll take a look at the underpinning SQL statements that are needed for every dynamic application.",
+    "teacher": 4,
+    "subject": "SQL",
+    "published": false,
+    "status": "i"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 16,
+  "fields": {
+    "created_at": "2016-01-19T21:48:28.411Z",
+    "title": "jQuery Basics",
+    "description": "jQuery Basics covers why you'd want to use jQuery, what it is and how to include it in your projects. You'll build several projects over the course to give you the confidence to integrate jQuery in your own projects and add that level of flair and interactivity to any site you work on.",
+    "teacher": 4,
+    "subject": "JavaScript",
+    "published": false,
+    "status": "i"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 17,
+  "fields": {
+    "created_at": "2016-01-19T21:48:50.644Z",
+    "title": "Build a Simple Dynamic Site with Node.js",
+    "description": "Node.js is a versatile platform for building all sorts of applications. In this course, we're going to make a dynamic website that displays a Treehouse student's profile information by creating a server that will dynamically generate content, handle URLs, read from files and build a simple template engine.",
+    "teacher": 4,
+    "subject": "JavaScript",
+    "published": false,
+    "status": "i"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 18,
+  "fields": {
+    "created_at": "2016-01-19T21:49:21.789Z",
+    "title": "Java Basics",
+    "description": "In this course you will gain all the knowledge you will need to build an interactive command line program in Java. No prior programming experience is required. You will create an interactive game that prompts users for different parts of a sentence and then generates a story using those words.",
+    "teacher": 3,
+    "subject": "Java",
+    "published": false,
+    "status": "i"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 19,
+  "fields": {
+    "created_at": "2016-01-19T21:49:35.318Z",
+    "title": "Java Objects",
+    "description": "Java is an Object Oriented Programming language. Literally everything is an object, so understanding them is critical to your Java foundational base.\r\n\r\nIn this course, we will learn how to create, use and express ideas using objects.",
+    "teacher": 3,
+    "subject": "Java",
+    "published": false,
+    "status": "i"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 20,
+  "fields": {
+    "created_at": "2016-01-19T21:49:50.153Z",
+    "title": "Java Data Structures",
+    "description": "In this course we are going to deal with different approaches of storing, accessing, and bending data to your will. By definition, a data structure is a particular way of organizing data so that it can be used efficiently. It's time to get more efficient.",
+    "teacher": 3,
+    "subject": "Java",
+    "published": false,
+    "status": "i"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 21,
+  "fields": {
+    "created_at": "2016-01-19T21:50:19.464Z",
+    "title": "Build a Basic PHP Website",
+    "description": "This project will show you how to build a simple website using the PHP programming language. The web site, a media library, will let you organize and display your Books, Movies and Music. You could easily use this project to create a website that lets you organize and display any type of item: Branch Locations, Products, Services, Events, even Courses like we have here on Treehouse.",
+    "teacher": 7,
+    "subject": "PHP",
+    "published": false,
+    "status": "i"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2017-02-05T23:39:46.379Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Python testing",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2017-02-05T23:39:58.952Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Object-Oriented Python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2017-02-10T23:47:50.476Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "What's the deals with Strings?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2017-02-23T17:27:12.485Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python basics",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"step\", \"object\": \"Using the Shell\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2017-02-23T17:27:54.431Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python basics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"step\", \"object\": \"What's the deals with Strings?\", \"fields\": [\"order\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2017-02-23T18:26:25.630Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python basics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"step\", \"object\": \"Using the Shell\", \"fields\": [\"content\"]}}, {\"changed\": {\"name\": \"step\", \"object\": \"What's the deals with Strings?\", \"fields\": [\"content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2017-02-23T18:27:12.746Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python basics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"step\", \"object\": \"Using the Shell\", \"fields\": [\"content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2017-02-23T18:27:36.529Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python basics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"step\", \"object\": \"What's the deals with Strings?\", \"fields\": [\"content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2017-02-23T18:27:50.909Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python basics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"step\", \"object\": \"Using the Shell\", \"fields\": [\"content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2017-02-24T16:04:28.047Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Python testing",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"step\", \"object\": \"Step 1 for testing\"}}, {\"added\": {\"name\": \"step\", \"object\": \"Step 2 for testing\"}}, {\"added\": {\"name\": \"step\", \"object\": \"Step 3 for testing\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2017-02-25T11:39:25.176Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "tiny step",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2017-02-25T11:39:46.113Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "tiny step",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2017-02-25T11:46:45.478Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Python testing",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2017-02-25T11:50:13.881Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Python testing",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2017-02-25T11:50:28.414Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Python testing",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2017-03-02T19:35:06.117Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Review",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2017-03-04T13:37:06.260Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Piu Piu",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"order\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2017-03-11T13:18:31.353Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Python testing",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"subject\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2017-03-11T13:18:31.389Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Object-Oriented Python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"subject\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2017-03-11T13:18:31.412Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Python collections",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"subject\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2017-03-11T13:18:31.433Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python basics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"subject\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2017-03-11T13:18:45.767Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "Java Objects",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"published\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2017-03-11T13:18:45.787Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Java Basics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"published\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2017-03-11T21:23:10.371Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "Build a Basic PHP Website",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"published\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2017-03-11T21:23:10.392Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "Java Data Structures",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"published\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2017-03-11T21:23:10.412Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "Java Objects",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"published\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2017-03-11T21:23:10.431Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Java Basics",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"published\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2017-07-29T19:32:04.888Z",
+    "user": 8,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "Build a Basic PHP Website",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+}
+]

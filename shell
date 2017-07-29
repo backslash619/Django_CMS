@@ -1,0 +1,72 @@
+python manage.py shell
+
+from courses.models import Course
+from django.contrib.auth.models import User
+
+teacher = User.objects.get(username='user_tarun')
+course = Course.objects.create.(teacher = teacher, subject = 'Python', title = 'Django Basics')
+
+course.id
+..
+
+# creating many records we use for loop around to create but thats take too much time
+# so we use the method which takes an iterable or iterables  is bulk_create
+
+Course.objects.bulk_create([
+    Course(teacher = teacher, title='Django Forms', subject = 'Python'),
+    Course(teacher = teacher, title='Django ORM', subject = 'Python')
+])
+
+
+
+#####this is exactly equal to get_object_or_404
+
+Course.objects.get_or_create(teacher = teacher, title = 'Django Basics', subject = 'Python')
+(<Course:Django Basics>, False)
+# as it was create earlier so it gives False for not creating it right now
+
+Course.objects.get_or_create(teacher = teacher, title = 'Django REST Framework', subject = 'Python')
+(<Course:Django REST Framework>, True)
+
+
+
+######################we can use the F object rather than using the instance####################
+
+from courses.models import Quiz, Course
+from django.db.models import F
+
+quiz = models.Quiz.objects.latest('id')
+quiz.times_taken +=1
+quiz.save()
+
+
+quiz.times_taken = F('times_taken'+1)
+quiz.save()
+
+# updating a particular we can't depend on instances
+
+
+
+
+
+##################using a request library##################
+
+pip install requests
+
+import requests
+
+r = requests.get("http://httpbin.org/get")
+
+# /get is the end point
+# r contains the status and a response object
+
+r.status
+r.ok
+r.headers
+r.json()
+
+
+
+
+
+

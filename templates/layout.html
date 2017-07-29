@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+{% load static from staticfiles %}
+{% load course_extras %}
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/layout.css' %}">
+    {% block static %}{% endblock %}
+    <link rel="stylesheet" href="{% static 'css/foundation.min.css' %}">
+    <script src="{% static 'js/vendor/modernizr.js' %}"></script>
+    <meta class="foundation-mq">
+</head>
+<body>
+<div class="site-container">
+    <nav class="top-bar" role="navigation">
+        <section class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu role="menubar">
+                <li class="menu-text">The Learning Site</li>
+                <li class="has-submenu">
+                    <a href="{% url 'home' %}">Home</a>
+                </li>
+                <li class="has-submenu">
+                    <a href="{% url 'courses:list' %}">Courses</a>
+                </li>
+                <li class="has-submenu">
+                    <a href="#">Subjects</a>
+                </li>
+            </ul>
+        </section>
+        <section class="top-bar-right">
+            <form action="{% url 'courses:search' %}" method="GET">
+                <ul class="menu">
+                    <li>
+                        <input type="search" name="q">
+                    </li>
+                    <li>
+                        <button type="button" class="secondary small button">Search</button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </nav>
+    <div class="row columns" style="margin-top:10px;">
+        <div>
+            {% block bread_crumb %}
+            <p>Please Don't miss our latest course {% newest_course %}</p>
+            {% endblock %}
+
+        </div>
+
+    </div>
+    {% if messages %}
+    <div class="row">
+        <div class="small-6 small-centered columns">
+            {% for message in messages %}
+            <div data-alert class="alert-box {{ message.tags }} radius">
+                {{ message }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+    {% block content %}{% endblock %}
+</div>
+<footer class="row columns">
+    <hr/>
+    <div class="small-6 columns">
+        <p>&copy; The Learning Site</p>
+    </div>
+    <div class="small-6 columns">
+        <ul class="inline-list no-bullet float-right">
+            <li><a href="{% url 'courses:list' %}">Courses</a></li>
+        </ul>
+        <ul class="inline-list no-bullet ">
+            <li>{% block email%}{% endblock %}</li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

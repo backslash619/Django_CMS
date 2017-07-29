@@ -1,0 +1,62 @@
+{% extends "courses/layout_course.html" %}
+{% load course_extras %}
+
+{% block title %}
+{{ form.instance.prompt|default:"New question" }} | {{ quiz.course.title }} {{ block.super }}
+{% endblock %}
+
+{% block breadcrumbs %}
+<li>
+    <a href="{% url 'courses:list' %}">Courses</a>
+</li>
+<li>
+    <a href="{% url 'courses:detail' pk=quiz.course.pk %}">{{ quiz.course.title }}</a>
+</li>
+<li>
+    <a href="{% url 'courses:quiz' course_pk=quiz.course.pk step_pk=quiz.pk %}">{{ quiz.title }}</a>
+</li>
+{% endblock %}
+
+{% block content %}
+<div class="row columns">
+    {{ block.super }}
+    <h5><strong>{{ form.instance.prompt|default:"Make a New Question"}}</strong></h5>
+    <form method="POST" action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <!--management_form is to check the form validation-->
+        {{ formset.management_form }}
+        <table role="grid" class="stack hover" style="width:100%">
+            <thead>
+                <tr>
+                    <th class="text-center" scope="col" style="width:10%">Order</th>
+                    <th class="text-center" scope="col">Text</th>
+                    <th class="text-center" scope="col" style="width:10%">Correct</th>
+                    <th class="text-center" scope="col" style="width:10%">Delete</th>
+                </tr>
+            </thead>
+            <tbody class="order">
+                {% for form in formset %}
+                    <tr class=" anser-form {% if form.instance.pk %}item{% else %}new{% endif %} ">
+                        <td>{{ form.id }} {{ form.order }}</td>
+                        <td>{{ form.text }}</td>
+                        <td class="text-center">{{ form.correct }}</td>
+                        {% if form.instance.pk %}
+                            <td class="text-center">{{ form.DELETE }}</td>
+                        {% else %}
+                            <td class="text-center"></td>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <input type="submit" value="Save" class="button">
+    </form>
+    <!--{% if user.is_authenticated and form.instance.pk %}-->
+    <!--<hr>-->
+    <!--here form.instance gives us the current question along with the type -->
+    <!--<a href="{% url 'courses:create_answer' question_pk=form.instance.pk %}" class="button">Add Answer</a>-->
+    <!--{% endif %}-->
+</div>
+{% endblock %}

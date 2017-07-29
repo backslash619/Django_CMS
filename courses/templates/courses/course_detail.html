@@ -1,0 +1,51 @@
+{% extends 'courses/layout_course.html' %}
+{% load humanize %}
+{% load static from staticfiles %}
+{% load course_extras %}
+
+{% block breadcrumbs %}
+<li class="has-submenu "><a href="{% url 'courses:list' %}">Courses</a></li>
+<li class="has-submenu"><a href="{% url 'courses:detail' pk=course.pk %}">{{ course.title }}</a></li>
+{% endblock %}
+
+{% block static %}
+<link rel="stylesheet" href="{% static 'courses/css/courses.css' %}">{% endblock %}
+
+{% block title %}{{ course.title }}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <article class="columns">
+        {{ block.super }}
+        <h3 class="">{{ course.title }}</h3>
+
+        <div class="callout secondary">
+            {{ course.description|markdown_to_html }}
+            <!--we doesn't use length as to make efficient also apnumber make it into letter-->
+            <p> There {{ steps|total_steps }} {{ steps|length|apnumber }} step{{ steps|length|pluralize }} in this
+                course: {{ steps|join:" | " }} </p>
+
+        </div>
+
+        <dl>
+            <!--step_set is the reversed link by django to get the step associated with the course-->
+            {% for step in steps %}
+            <dt>
+            <a href="{{ step.get_absolute_url }}">Step {{ step.order }} {{ step.title }}</a>
+            </dt>
+            <!--<dd>{{ step.description }}</dd>-->
+                {% if step.question_set.all %}
+                    <dt>Total number of Questions in this Course: </dt>
+                    <dd>{{ step.question_set.count }}</dd>
+                {% endif %}
+            {% endfor %}
+        </dl><!---->
+    </article>
+    <div class="columns">
+        {% if user.is_authenticated %}
+            <hr>
+            <a href="{% url 'courses:create_quiz' course_pk=course.id %}" class="button">Create New Quiz</a>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

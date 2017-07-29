@@ -1,0 +1,47 @@
+{% extends "courses/layout_course.html" %}
+{% load static from staticfiles %}
+
+{% block static %}
+<link rel="stylesheet" href="{% static 'courses/css/courses.css' %}">
+{% endblock %}
+
+{% block breadcrumbs %}
+<li><a href="{% url 'courses:list' %}">Courses</a></li>
+{% endblock %}
+
+{% block title %}
+Available Courses
+{% endblock %}
+
+{% block content %}
+<div class="row">
+
+        <li class="no-bullet" style="margin-left:12px;">
+        Total number of Quizzes and Text Steps: {{ total.total }}
+        </li>
+
+    {% for course in courses %}
+    <div class="small-6 columns">
+        {{ block.super }}
+        <div class="callout title">
+            <h5><a href="{% url 'courses:detail' pk=course.pk %}">{{ course.title }}</a></h5>
+            <div class="card-copy">
+                {% if course.description|wordcount <= 5 %}
+                {{ course.description }}
+                {% else %}
+                {{ course.description|truncatewords:5 }}
+                <a href="{% url 'courses:detail' pk=course.pk %}">Read more</a>
+                {% endif %}
+                {% if course.total_steps %}
+                <p><strong>Steps: </strong> {{ course.total_steps }} </p>
+                {% endif %}
+
+            </div>
+            <!--here we used the datr filter as F j Y is the format we can do m/d/y-->
+            <div>Created on:{{ course.created_at|date:"F j, Y" }}</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
+{% block email %} Contact Us! {{ email|urlize }}{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "courses/layout_course.html" %}
+{% load course_extras %}
+
+{% block title %}{{ step.title }} | {{ step.course.title }} {{ block.super }}{% endblock %}
+{% block breadcrumbs %}
+<li><a href="{% url 'courses:list' %}">Courses</a></li>
+<li><a href="{% url 'courses:detail' pk=step.course.pk %}">{{ step.course.title }}</a></li>
+<li><a href="#">{{ step.title }}</a></li>
+{% endblock %}
+
+{% block content %}
+<div class="row columns">
+    <article>
+        <h4>{{ step.title }}</h4>
+        {% with con=step.content %}
+        <p>{{ con|linebreaks }}</p>
+        Content: {{ con|wordcount }} words.
+        Estimated time: {{ con|wordcount|time_estimate }} minute{{ con|wordcount|time_estimate|pluralize }}
+        {% endwith %}
+    </article>
+</div>
+{% endblock %}
